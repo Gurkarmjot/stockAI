@@ -1,0 +1,25 @@
+To install Git on your system, follow these steps:
+
+### For Windows:
+1. Download the Git installer from the official Git website: [Git for Windows](https://git-scm.com/download/win).
+2. Run the installer and follow the setup instructions.
+3. Once the installation is complete, open the Command Prompt or Git Bash and type `git --version` to verify the installation.
+
+### For macOS:
+1. Open the Terminal.
+2. Install Git using Homebrew by running the following command:
+    ```sh
+    brew install git
+    ```
+3. Verify the installation by typing `git --version` in the Terminal.
+
+### For Linux:
+1. Open the Terminal.
+2. Install Git using the package manager for your distribution. For example, on Ubuntu, you can run:
+    ```sh
+    sudo apt update
+    sudo apt install git
+    ```
+3. Verify the installation by typing `git --version` in the Terminal.
+
+After installing Git, you can follow the steps in your `copilot_help.txt` file to initialize and commit your project to GitHub.
